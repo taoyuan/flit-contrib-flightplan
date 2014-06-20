@@ -18,6 +18,7 @@
   "homepage": "https://github.com/taoyuan/flit-flightplan",
   "devDependencies": {
     "chai": "^1.9.1",
+    "flit": "0.0.1",
     "mocha": "^1.20.1"
   },
   "dependencies": {
