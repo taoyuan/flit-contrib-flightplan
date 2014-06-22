@@ -1,6 +1,6 @@
 {
-  "name": "flit-flightplan",
-  "version": "0.0.3",
+  "name": "flit-plugin-flightplan",
+  "version": "0.0.4",
   "description": "Flit flightplan plugin",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taoyuan/flit-flightplan.git"
+    "url": "https://github.com/taoyuan/flit-plugin-flightplan.git"
   },
   "author": "Tao Yuan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taoyuan/flit-flightplan/issues"
+    "url": "https://github.com/taoyuan/flit-plugin-flightplan/issues"
   },
-  "homepage": "https://github.com/taoyuan/flit-flightplan",
+  "homepage": "https://github.com/taoyuan/flit-plugin-flightplan",
   "devDependencies": {
     "chai": "^1.9.1",
-    "flit": "0.0.1",
+    "flit": "taoyuan/flit",
     "mocha": "^1.20.1"
   },
   "dependencies": {

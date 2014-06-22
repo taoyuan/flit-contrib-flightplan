@@ -21,7 +21,7 @@ describe('flit/task-local', function () {
                 fn();
             });
 
-            flit.loadPlugins(plugin);
+            flit.loadPlugin(plugin);
             // Act
             flit.start('test', function (err) {
                 if (err) throw err;
@@ -44,7 +44,7 @@ describe('flit/task-local', function () {
                 t.fail();
             });
 
-            flit.loadPlugins(plugin);
+            flit.loadPlugin(plugin);
 
             // Act
             flit.start(['test', 'test2'], function (err) {
@@ -75,7 +75,7 @@ describe('flit/task-local', function () {
                 });
             });
 
-            flit.loadPlugins(plugin);
+            flit.loadPlugin(plugin);
 
             // Act
             flit.start('test', function (err) {
