@@ -4,8 +4,6 @@ flit-contrib-flightplan
 > [Flightplan](https://github.com/pstadler/flightplan) plugin for using flightplan for streamlining application deployment or systems administration tasks.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.1`
-
 Install plugin with this command:
 
 ```shell
