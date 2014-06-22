@@ -18,7 +18,7 @@ flit.loadNpmPlugin('flit-contrib-flightplan');
 
 Or using [load-flit-plugins](https://github.com/taoyuan/load-flit-plugins) to auto load all plugins included in `package.json`.
 
-## Sample script
+## Sample `flitfile.js`
 
 ```js
 
@@ -51,8 +51,10 @@ module.exports = function (flit) {
     }
   });
 
+  // `c` is the context object.
+  // The flit-contrib-flightplan plugin extended the context object with two function: `local` and `remote`.
+  // More about local and remote usage to visit: https://github.com/pstadler/flightplan
   flit.task(function (c) {
-
     // run commands on localhost
     c.local(function(local) {
       local.log('Run build');
@@ -84,6 +86,5 @@ module.exports = function (flit) {
     // ...or on remote hosts
     c.remote(function(remote) { /* ... */ });
   });
-
 });
 ```
