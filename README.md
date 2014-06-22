@@ -51,8 +51,10 @@ module.exports = function (flit) {
     }
   });
 
+  // `c` is the context object.
+  // The flit-contrib-flightplan plugin extended the context object with two function: `local` and `remote`.
+  // More about local and remote usage to visit: https://github.com/pstadler/flightplan
   flit.task(function (c) {
-
     // run commands on localhost
     c.local(function(local) {
       local.log('Run build');
@@ -84,6 +86,5 @@ module.exports = function (flit) {
     // ...or on remote hosts
     c.remote(function(remote) { /* ... */ });
   });
-
 });
 ```
