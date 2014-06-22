@@ -18,7 +18,7 @@ flit.loadNpmPlugin('flit-contrib-flightplan');
 
 Or using [load-flit-plugins](https://github.com/taoyuan/load-flit-plugins) to auto load all plugins included in `package.json`.
 
-## Sample script
+## Sample `flitfile.js`
 
 ```js
 
