@@ -1,6 +1,8 @@
 flit-contrib-flightplan
 ===============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/flit-contrib-flightplan.svg)](https://greenkeeper.io/)
+
 > [Flightplan](https://github.com/pstadler/flightplan) plugin for using flightplan for streamlining application deployment or systems administration tasks.
 
 ## Getting Started
